@@ -1,8 +1,190 @@
-<header>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/about-rabiul-mandal">About</a>
-    <a href="/web-developer-in-india">Services</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<div class="top-bar">
+    <div class="left-info">
+        <span class="info-item">
+            <i class="fa-solid fa-phone"></i>
+            +91 8920 220 947
+        </span>
+
+        <span class="info-item">
+            <i class="fa-solid fa-envelope"></i>
+            info@rstravelindia.com
+        </span>
+    </div>
+
+    <div class="right-info">
+        <!-- <div class="auth-links">
+            <a href="#">Login</a>
+            <span>Or</span>
+            <a href="#">Register</a> -->
+        </div>
+
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</div>
+
+<!-- Overlay -->
+<div class="mobile-menu-overlay"></div>
+<!-- Main Header -->
+<header class="main-header">
+    <!-- ----- Desktop Nav ------------------- -->
+    <div class="desktop-nav">
+
+        <div class="logo">
+            <a href="/"><img src="/img/logo.png" alt="Taxi Logo"></a>
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="/">Home</a></li>
+
+                <li><a href="/about-us">About
+                        Us</a></li>
+
+                <li><a href="/services">Services</a></li>
+
+                <li class="dropdown">
+                    <a href="/our-fleets">Our
+                        Fleets <i class="fa-solid fa-chevron-down"></i></a>
+
+                    <ul class="submenu">
+                        <li class="dropdown">
+                            <a href="/economy">Economy Vehicles <i class="fa-solid fa-chevron-right"></i></a>
+                            <ul class="submenu">
+                                <li><a href="/maruti-wagon-r">Maruti Wagon R</a></li>
+                                <li><a href="/toyota-etios-rental-service">Toyota Etios Rental Service</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/executive-vehicles">Executive Vehicles</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="/top-location">Top Location</a></li>
+
+                <li><a href="/blog">Blog</a></li>
+
+                <li><a href="/contact">Contact
+                        Us</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div class="header-right">
+            <div class="icons">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+            </div>
+
+            <div class="call-box">
+                <div class="call-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="call-info">
+                    <p>Call Anytime</p>
+                    <h5>+91 8920 220 947</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ------------------- Mobile Mene --------------- -->
+    <div class="mobile-nav-sec">
+        <!-- Overlay -->
+        <div class="mobile-menu-overlay"></div>
+        <div class="backdrop"></div>
+        <!-- MOBILE MENU WRAPPER -->
+        <div class="mobile-menu">
+
+            <!-- MAIN PANEL -->
+            <div class="menu-panel active" id="panel-main">
+                <ul>
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li><a href="/about-us">About Us</a>
+                    </li>
+                    <li><a href="/services">Services</a>
+                    </li>
+                    <li class="menu-btn mobil-nav-arrow" data-open="panel-fleets"><a href="/our-fleets">Our Fleets
+                        </a><span><i class="fa-solid fa-chevron-right"></i></span>
+                    </li>
+                    <li><a href="/top-location">Top Location</a></li>
+                    <li><a href="/blog">Blog</a>
+                    </li>
+                    <li><a href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ABOUT PANEL -->
+            <!-- <div class="menu-panel" id="panel-about">
+                <div class="panel-header"><span class="back-btn" data-back>← Back</span>
+                    <h3>About Us</h3>
+                </div>
+                <ul>
+                    <li><a href="about.php">About Company</a></li>
+                </ul>
+            </div> -->
+
+            <!-- SERVICES PANEL -->
+            <!-- <div class="menu-panel" id="panel-services">
+                <div class="panel-header"><span class="back-btn" data-back>← Back</span>
+                    <h3>Services</h3>
+                </div>
+                <ul>
+                    <li><a href="#">Local Ride</a></li>
+                    <li><a href="#">Outstation</a></li>
+                    <li class="menu-btn" data-open="panel-more-services">More Services →</li>
+                </ul>
+            </div> -->
+
+            <!-- MORE SERVICES PANEL -->
+            <!-- <div class="menu-panel" id="panel-more-services">
+                <div class="panel-header"><span class="back-btn" data-back>← Back</span>
+                    <h3>More Services</h3>
+                </div>
+                <ul>
+                    <li><a href="#">Premium Ride</a></li>
+                    <li><a href="#">Corporate Ride</a></li>
+                </ul>
+            </div> -->
+
+            <!-- OUR FLEETS PANEL -->
+            <div class="menu-panel" id="panel-fleets">
+                <div class="panel-header"><span class="back-btn" data-back>← Back</span>
+                    <h5>Our Fleets</h5>
+                </div>
+                <ul>
+                    <li class="mobil-nav-arrow"><a href="/economy">Economy Vehicles</a> <span class="menu-btn"
+                            data-open="panel-more-feets"><i class="fa-solid fa-chevron-right"></i></span></li>
+                    <li><a href="#">Executive Vehicles</a></li>
+            </div>
+            <!-- MORE FLEETS PANEL -->
+            <div class="menu-panel" id="panel-more-feets">
+                <div class="panel-header"><span class="back-btn" data-back>← Back</span>
+                    <h5>Our Fleets</h5>
+                </div>
+                <ul>
+                    <li><a href="vehicle.php?carname=Maruti Wagon R">Maruti Wagon R</a></li>
+                    <li><a href="#">Toyota Etios Car Rental</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="mobile-logo">
+            <div class="logo">
+                <a href="/"><img src="img/logo.png" alt="Taxi Logo"></a>
+            </div>
+            <!-- MENU BUTTON -->
+            <div id="mobileMenuBtn" class="nav-btn">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+
 </header>
