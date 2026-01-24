@@ -1,0 +1,30 @@
+@media (max-width: 765px) {
+  html {
+    font-size: 8px;
+  }
+  .hero-session .hero-container {
+    flex-direction: column;
+  }
+  .service-card .service-card-box {
+    flex-basis: 100%;
+  }
+  .home-about .home-about-wrap {
+    flex-direction: column;
+  }
+  .home-about .home-about-wrap .home-about-left {
+    width: 100%;
+  }
+  .home-about .home-about-wrap .home-about-right {
+    width: 100%;
+  }
+  .project-card .project-card-box .project-card-box-wrap {
+    flex-basis: 100%;
+  }
+  .education-work .education-work-wrap {
+    flex-direction: column;
+    align-items: start;
+  }
+  .tool-container .tool .tool-card .tool-card-wrap .tools {
+    flex-basis: 33%;
+  }
+}/*# sourceMappingURL=responsive.css.map */

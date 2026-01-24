@@ -1,11 +1,653 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>md-rabiul-mandal-web-developer</title>
-</head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rabiul Mandal | Web Developer & Frontend Engineer</title>
+<meta name="description"
+    content="Rabiul Mandal is a professional Web Developer and Frontend Engineer from India, building modern and SEO-friendly websites." />
+<meta name="keywords"
+    content="Rabiul Mandal, Rabiul Mandal Web Developer, Frontend Developer India, Rabiul Mandal Portfolio" />
+<!-- <link rel="canonical" href="https://rabiulmandal.netlify.app/" /> -->
+
+<link rel="icon" href="/assets/image/favicon.png">
+<!-- ------------ Meta Og tags --------------- -->
+<meta property="og:title" content="Rabiul Mandal | Web Developer" />
+<meta property="og:description" content="Official portfolio of Rabiul Mandal – Web Developer & Frontend Engineer." />
+<meta property="og:url" content="https://rabiulmandal.netlify.app/" />
+<meta property="og:type" content="website" />
+
+<!-- ---------- Stylesheet ----------- -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/responsive.css">
+<!-- ---------- Fontawesome ----------- -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+<!-- ---------- Google Fonts ----------- -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+<!-- -------------- Swiper ----------------- -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- -------------- Jquery --------------------------------- -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 <body>
-    Under Development
+
+    <section>
+        <!-- <div id="site-header"></div> -->
+        <div class="top-bar">
+            <div class="left-info">
+                <span class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    +91 931 834 9119
+                </span>
+
+                <span class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    rabiulmanal6052@gmail.com
+                </span>
+            </div>
+
+            <div class="right-info">
+                <!-- <div class="auth-links">
+            <a href="#">Login</a>
+            <span>Or</span>
+            <a href="#">Register</a> -->
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+        </div>
+        <!-- Overlay -->
+        <div class="mobile-menu-overlay"></div>
+        <!-- Main Header -->
+        <header class="main-header">
+            <!-- ----- Desktop Nav ------------------- -->
+            <div class="desktop-nav">
+
+                <div class="logo">
+                    <a href="/"><img src="/assets/image/logo.svg" alt="Rabiul mandal Logo"></a>
+                </div>
+                <nav class="navbar">
+                    <ul class="menu">
+                        <li><a class="nav-active nav-link"href="/">Home</a></li>
+
+                        <li><a class="nav-link" href="/about-rabiul-mandal.html">About Me</a></li>
+                        <li><a class="nav-link" href="/services-rabiul-mandal.html">Services</a></li>
+                        <li class="dropdown">
+                            <a class="nav-link" href="">Projects<i class="fa-solid fa-chevron-down"></i></a>
+
+                            <ul class="submenu">
+                                <li class="dropdown">
+                                <li><a class="nav-link" href="/rabiul-mandal-group-project.html">Group Projects</a></li>
+                                <li><a class="nav-link" href="/rabiul-mandal-solo-project.html">Solo Project</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-link" href="/rabiul-mandal-blogs.html">Blog</a></li>
+                        <li><a class="nav-link" href="/contact-rabiul-mandal.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+
+
+
+                <div class="header-right">
+                    <div class="icons">
+                        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                    </div>
+
+                    <div class="call-box">
+                        <div class="call-icon">
+                            <i class="fa-solid fa-download"></i>
+                        </div>
+                        <div class="call-info">
+                            <p>Get in local | Dwonload</p>
+                            <h5>View Resume</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ------------------- Mobile Mene --------------- -->
+            <div class="mobile-nav-sec">
+                <!-- Overlay -->
+                <div class="mobile-menu-overlay"></div>
+                <div class="backdrop"></div>
+                <!-- MOBILE MENU WRAPPER -->
+                <div class="mobile-menu">
+
+                    <!-- MAIN PANEL -->
+                    <div class="menu-panel active" id="panel-main">
+                        <ul>
+                            <li><a href="/">Home</a>
+                            </li>
+                            <li><a href="/about-rabiul-mandal.html">About Me</a>
+                            </li>
+                            <li><a href="/services-rabiul-mandal.html">Services</a>
+                            </li>
+                            <li class="menu-btn mobil-nav-arrow" data-open="panel-fleets"><a href="">Projects
+                                </a><span><i class="fa-solid fa-chevron-right"></i></span>
+                            </li>
+                            <li><a href="/rabiul-mandal-blogs.html">Blog</a>
+                            </li>
+                            <li><a href="/contact-rabiul-mandal.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- OUR Services PANEL -->
+                    <div class="menu-panel" id="panel-fleets">
+                        <div class="panel-header"><span class="back-btn" data-back>← Back</span>
+                            <h5>Services</h5>
+                        </div>
+                        <ul>
+                            <li><a href="/rabiul-mandal-group-project.html">Group Project</a></li>
+                            <li><a href="/rabiul-mandal-solo-project.html">Solo Project</a></li>
+                    </div>
+
+                </div>
+                <div class="mobile-logo">
+                    <div class="logo">
+                        <a href="/"><img src="/assets/image/logo.svg" alt="Rabiul mandal Logo"></a>
+                    </div>
+                    <!-- MENU BUTTON -->
+                    <div id="mobileMenuBtn" class="nav-btn">
+                        <span></span><span></span><span></span>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+    </section>
+
+    <main>
+        <section id="hero">
+            <div class="hero-session">
+                <div class="container">
+                    <div class="hero-container">
+                        <div class="hero-content">
+                            <h4>Hello There! This is</h4>
+                            <h1>Md Rabiul Mandal</h1>
+                            <h2>I'm a <span id="changingword"> Web Developer</span></h2>
+                            <p>I help businesses grow online with SEO-focused websites & digital strategy
+                                Turning clicks into customers through smart design & search visibility.</p>
+                            <div class="hero-btn">
+                                <button><a href="">View My Portfolio</a> <i class="fa-solid fa-upload"></i></button>
+                                <button><a href="tel:9318349119">Hire Me</a> <i class="fa-solid fa-upload"></i></button>
+                            </div>
+                        </div>
+                        <div class="hero-codwin">
+                            <div class="codwin-t-btn">
+                                <button>Coding</button>
+                                <button>Website</button>
+                                <button>designing</button>
+                                <button>Developed</button>
+                                <button>Testing</button>
+                            </div>
+                            <div class="codwin-win">
+                                <div class="codwin-win-h">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="codwin-win-body">
+                                    <div class="count">
+                                        <pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+    
+                                </pre>
+                                    </div>
+                                    <code>
+                                    <div>
+                                        <div>
+                                            <span class="code-green">// Hey This Is Code Time</span>
+                                        </div>
+                                        <span class="code-purple">@use </span><span class="code-orange"> "_editor" </span> <span class="code-purple"> as </span><span class="code-blue"> playground</span><span class="code-white"> ;</span>
+                                    </div>
+                                    <div>
+                                        <span class="code-purple">@import </span><span class="code-orange"> "_Design" </span><span class="code-white"> ;</span>
+                                    </div>
+                                    <div>
+                                        <span class="code-blue">*</span><span class="code-orange code-gap">{</span>
+                                    </div>
+                                    <div class="code-gap">
+                                        <span class="code-blue">web-page-style </span><span class="code-white"> :</span><span class="code-orange"> modern-UI</span><span class="code-white"> ;</span> <span class="code-blue code-gap"> mobile-view</span> </span><span class="code-white"> :</span><span class="code-orange"> responsive</span><span class="code-white"> ;</span>
+                                    </div>
+                                    <div>
+                                        <span class="code-orange">}</span>
+                                    </div>
+                                    <div>
+                                        <span class="code-yellow">.code</span></span><span class="code-orange code-gap">{</span>
+                                    </div>
+                                    <div class="code-gap">
+                                        <span class="code-blue">webpage-stracture </span><span class="code-white"> :</span><span class="code-orange"> html</span><span class="code-white"> ;</span> <span class="code-blue code-gap"></span>
+                                    </div>
+                                    <div class="code-gap">
+                                        <span class="code-blue">webpage-Style </span><span class="code-white"> :</span><span class="code-orange"> CSS</span><span class="code-white"> ;</span> <span class="code-blue code-gap"></span>
+                                    </div>
+                                    <div class="code-gap">
+                                        <span class="code-blue">webpage-Funcality </span><span class="code-white"> :</span><span class="code-orange"> JavaScript</span><span class="code-white"> ;</span> <span class="code-blue code-gap"></span>
+                                    </div>
+                                    <div>
+                                        <span class="code-orange">}</span>
+                                    </div>
+                                    <div></div>
+                                 
+                                </code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-gap">
+            <div class="marquee-block">
+                <div class="marquee-wrap">
+                    <marquee behavior="scroll" direction="left">
+                        <span>Web Developer</span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span>Web Desginer</span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span>Dashboard </span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span>Web App</span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span>SASS</span>
+                        <span><i class="fa-solid fa-asterisk"></i></span>
+                        <span>HTML</span>
+                    </marquee>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-gap">
+            <div class="service-card-container">
+                <div class="container">
+                    <div class="service-card-wrap">
+                        <div class="sec-head">
+                            <div class="sec-left-head">
+                                <div class="sec-sub-head">
+                                    <h5> <i class="fa-solid fa-laptop-code f-parimary"></i> Service</h5>
+                                </div>
+                                <div class="sec-main-head">
+                                    <h2><span>Service</span> I Provide</h2>
+                                </div>
+                            </div>
+                            <div class="sec-right-head">
+                                <div class="c-sec-btn">
+                                    <button><a href="">View All Services</a> <i class="fa-solid fa-upload"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-card-box">
+                                <div class="service-card-box-wrap">
+                                    <div class="icon"><img src="assets/image/icons/icon-website-development.png"
+                                            alt="icon website development"></div>
+                                    <h4>Website Development</h4>
+                                    <p>Fast, responsive, SEO-ready websites</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="service-card-box">
+                                <div class="service-card-box-wrap">
+                                    <div class="icon"><img src="assets/image/icons/icon-business-brand.png"
+                                            alt="icon business brand"></div>
+                                    <h4>Personal & Business Branding</h4>
+                                    <p>Online presence that converts</p>
+                                   
+                                </div>
+                            </div>
+                            <div class="service-card-box">
+                                <div class="service-card-box-wrap">
+                                    <div class="icon"><img src="assets/image/icons/icon-seo.png" alt="icon seo"></div>
+                                    <h4>SEO Optimization</h4>
+                                    <p>On-page, technical & content SEO</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="sec-gap">
+            <div class="home-about">
+                <div class="container">
+                    <div class="home-about-wrap">
+                        <div class="home-about-left">
+                            <img src="assets/image/md-rabiul-mandal-about.png" alt="">
+                        </div>
+                        <div class="home-about-right">
+                            <div class="sec-head">
+                                <div>
+                                    <div class="sec-sub-head">
+                                        <h5><i class="fa-solid fa-laptop-code f-parimary"></i> About Me</h5>
+                                    </div>
+                                    <div class="sec-main-head">
+                                        <h2>Who is <span>MD Rabiul Mandal ?</span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>I’m a web developer and SEO-focused digital creator passionate about building fast,
+                                clean, and growth-oriented websites.</p>
+                            <p>I work with individuals and small businesses to turn ideas into powerful online
+                                identities.</p>
+                            <div class="counter">
+                                <div id="counter" class="counter-wrap">
+
+
+                                    <div class="item">
+                                        <h2 class="run_count" data-number="2"></h2>
+                                        <h5 class="text">year Eexperience</h5>
+                                    </div>
+                                    <div class="item">
+                                        <h2 class="run_count" data-number="20"></h2>
+                                        <h5 class="text">project completed</h5>
+                                    </div>
+                                    <div class="item">
+                                        <h2 class="run_count" data-number="10"></h2>
+                                        <h5 class="text">happy clients</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="c-sec-btn">
+                                <button><a href="">Know More About Me</a> <i class="fa-solid fa-upload"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-gap">
+            <div class="tool-container">
+                <div class="container">
+                    <div class="tool">
+                        <div class="sec-head">
+                            <div>
+                                <div class="sec-sub-head">
+                                    <h5> <i class="fa-solid fa-laptop-code f-parimary"></i> Exploring The Tools Behind
+                                        My Work</h5>
+                                </div>
+                                <div class="sec-main-head">
+                                    <h2>Toolkit & Software</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tool-card">
+                            <div class="tool-card-wrap">
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-1.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-2.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-3.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-4.png" alt=""
+                                        style="box-shadow: 0 0 15px #646464">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-5.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-6.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-7.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-8.png" alt=""
+                                        style="box-shadow: 0 0 15px #646464">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-9.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-10.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-11.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-12.png" alt=""
+                                        style="box-shadow: 0 0 15px #646464">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-13.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-14.png" alt="">
+                                </div>
+                                <div class="tools">
+                                    <img src="assets/image/toolkit/skill-card-icon-15.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-gap">
+            <div class="home-project-card-container">
+                <div class="container">
+                    <div class="project-card-wrap">
+                        <div class="sec-head">
+                            <div class="sec-left-head">
+                                <div class="sec-sub-head">
+                                    <h5> <i class="fa-solid fa-laptop-code f-parimary"></i> My Potfolio</h5>
+                                </div>
+                                <div class="sec-main-head">
+                                    <h2>My Latest Projects</h2>
+                                </div>
+                            </div>
+                            <div class="sec-right-head">
+                                <div class="c-sec-btn">
+                                    <button><a href="">View All Projects</a> <i class="fa-solid fa-upload"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-card-box">
+                                <div class="project-card-box-wrap">
+                                    <div class="project-card-box-img">
+                                        <img src="assets/image/project-img-1.png " alt="">
+                                    </div>
+                                    <div class="project-key">
+                                        <span>Dynamic Site</span>
+                                        <span>Dashboard</span>
+                                        <span>Html</span>
+                                        <span>CSS</span>
+                                        <span>JS</span>
+                                        <span>PHP</span>
+                                        <span>School Management System</span>
+                                        <span>Role Based Login</span>
+                                    </div>
+                                    <div class="project-name">
+                                        <h3>Natkhat Foundation School</h3>
+                                        <div class="card-btn">
+                                            <a href="">Go Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-card-box-wrap">
+                                    <div class="project-card-box-img">
+                                        <img src="assets/image/project-img-3.png " alt="">
+                                    </div>
+                                    <div class="project-key">
+                                        <span>Dynamic Site</span>
+                                        <span>Dashboard</span>
+                                        <span>Html</span>
+                                        <span>CSS</span>
+                                        <span>JS</span>
+                                        <span>PHP</span>
+                                        <span>School Management System</span>
+                                        <span>Role Based Login</span>
+                                    </div>
+                                    <div class="project-name">
+                                        <h3>Natkhat Foundation School</h3>
+                                        <div class="card-btn">
+                                            <a href="">Go Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-card-box-wrap">
+                                    <div class="project-card-box-img">
+                                        <img src="assets/image/project-img-9.png " alt="">
+                                    </div>
+                                    <div class="project-key">
+                                        <span>Dynamic Site</span>
+                                        <span>Dashboard</span>
+                                        <span>Html</span>
+                                        <span>CSS</span>
+                                        <span>JS</span>
+                                        <span>PHP</span>
+                                        <span>School Management System</span>
+                                        <span>Role Based Login</span>
+                                    </div>
+                                    <div class="project-name">
+                                        <h3>Natkhat Foundation School</h3>
+                                        <div class="card-btn">
+                                            <a href="">Go Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="project-card-box-wrap">
+                                    <div class="project-card-box-img">
+                                        <img src="assets/image/project-img-4.png " alt="">
+                                    </div>
+                                    <div class="project-key">
+                                        <span>Dynamic Site</span>
+                                        <span>Dashboard</span>
+                                        <span>Html</span>
+                                        <span>CSS</span>
+                                        <span>JS</span>
+                                        <span>PHP</span>
+                                        <span>School Management System</span>
+                                        <span>Role Based Login</span>
+                                    </div>
+                                    <div class="project-name">
+                                        <h3>Natkhat Foundation School</h3>
+                                        <div class="card-btn">
+                                            <a href="">Go Live</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-gap">
+            <div class="education-container">
+                <div class="container">
+                    <div class="sec-head">
+                        <div class="sec-left-head">
+                            <div class="sec-sub-head">
+                                <h5> <i class="fa-solid fa-laptop-code f-parimary"></i> My Academic And <span
+                                        class="f-third">Professional Journey</span></h5>
+                            </div>
+                            <div class="sec-main-head">
+                                <h2><span class="f-secondary">Education</span> and My Work</h2>
+                            </div>
+                        </div>
+                        <div class="sec-right-head">
+                            <div class="c-sec-btn">
+                                <button><a href="">View All Services</a> <i class="fa-solid fa-upload"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-work">
+                        <div class="education-work-wrap">
+                            <div class="education education-work-card">
+                                <div class="education-work-head">
+                                    <h3>Education</h3>
+                                </div>
+                                <div class="education-work-content">
+                                    <h5>2022-2023</h5>
+                                    <h4>Web Deploma</h4>
+                                    <p>From Web Skill</p>
+                                </div>
+                                <div class="education-work-content">
+                                    <h5>2022-2023</h5>
+                                    <h4>Web Deploma</h4>
+                                    <p>From Web Skill</p>
+                                </div>
+                                <div class="education-work-content">
+                                    <h5>2020-2021</h5>
+                                    <h4>Secondary School (10<sup>th</sup> Board)</h4>
+                                    <p>From K.K.C QCUTTA D.A.V SER. SEC. SCHOOL</p>
+                                </div>
+                            </div>
+                            <div class="work education-work-card">
+                                <div class="education-work-head">
+                                    <h3>Work Experience</h3>
+                                </div>
+                                <div class="education-work-content">
+                                    <h5>2023-2024</h5>
+                                    <h4>In India Internet</h4>
+                                    <p>As Juniour Forentend Developer</p>
+                                </div>
+                                <div class="education-work-content">
+                                    <h5>2023-2024</h5>
+                                    <h4>In India Internet</h4>
+                                    <p>As Juniour Forentend Developer</p>
+                                </div>
+                                <div class="education-work-content">
+                                    <h5>2023-2024</h5>
+                                    <h4>In India Internet</h4>
+                                    <p>As Juniour Forentend Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="sec-gap">
+        <div class="container">
+            <p>© 2025 Rabiul Mandal. All Rights Reserved.</p>
+            <a href="/about-rabiul-mandal">About Rabiul Mandal</a>
+        </div>
+    </footer>
+
+
+    <script src="/assets/js/script.js"></script>
 </body>
+
 </html>
