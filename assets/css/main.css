@@ -145,6 +145,9 @@ button i {
   font-size: 1.8rem;
   color: #3200a7;
 }
+.top-bar .left-info .info-item a {
+  color: #000;
+}
 .top-bar .right-info {
   display: flex;
   align-items: center;
@@ -173,6 +176,7 @@ button i {
 }
 .social-icons a {
   font-size: 1.6rem;
+  color: #3200a7;
 }
 .social-icons a:nth-child(1):hover {
   color: #009933;
@@ -525,7 +529,9 @@ body.menu-open .mobile-menu-overlay {
   }
 }
 .footer {
-  background: #3D3D3B;
+  background: linear-gradient(rgba(11, 0, 59, 0.795), rgba(11, 0, 59, 0.795)), url(/assets/image/footer-bg.jpg);
+  background-position: center;
+  background-size: cover;
   width: 100%;
   padding: 4rem 0 2rem;
 }
@@ -586,21 +592,43 @@ body.menu-open .mobile-menu-overlay {
 .footer .footer-wrap .footer-nav .footer-nav-block h4 {
   margin-bottom: 1rem;
 }
+.footer .footer-wrap .footer-nav .footer-nav-block ul li {
+  margin-bottom: 1rem;
+}
 .footer .footer-wrap .footer-nav .footer-nav-block ul li a {
   color: #fff;
 }
 .footer .footer-wrap .footer-nav .block1 p {
   font-size: 1.4rem;
   font-weight: 200;
+  color: #fff;
 }
 .footer .footer-wrap .footer-nav .block4 .address {
   display: flex;
   margin-bottom: 1rem;
 }
+.footer .footer-wrap .footer-nav .block4 .address p {
+  color: #fff;
+}
+.footer .footer-wrap .footer-nav .block4 a {
+  color: #fff;
+}
 .footer .footer-wrap .copy-right {
   text-align: center;
   border-top: 0.1rem solid #fff;
   padding-top: 2rem;
+}
+.footer .footer-wrap .copy-right p {
+  color: #fff;
+}
+.footer .footer-wrap .copy-right a {
+  color: #f98a00;
+}
+
+.footer-socail-icon {
+  margin-top: 2rem;
+}
+.footer-socail-icon a {
   color: #fff;
 }
 
@@ -973,6 +1001,21 @@ body.menu-open .mobile-menu-overlay {
   border-left: 2px solid #f98a00;
   margin-top: 2rem;
   padding: 1rem 0 1em 1.5rem;
+}
+
+.about-hero-wrap {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.about-hero-wrap .about-hero-left {
+  width: 50%;
+}
+.about-hero-wrap .about-hero-right {
+  width: 50%;
+}
+.about-hero-wrap .about-hero-right img {
+  width: 100%;
 }
 
 .sec-head {
