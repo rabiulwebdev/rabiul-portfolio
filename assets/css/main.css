@@ -166,29 +166,31 @@ button i {
 .top-bar .right-info .auth-links span {
   color: #fff;
 }
-.top-bar .right-info .social-icons {
+
+.social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
-.top-bar .right-info .social-icons a {
-  width: 2.8rem;
-  height: 2.8rem;
-  border: 0.1rem solid #8C8D8A;
-  border-radius: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  transition: 0.5s all ease;
+.social-icons a {
+  font-size: 1.6rem;
 }
-.top-bar .right-info .social-icons a i {
-  font-size: 1.3rem;
-  color: #fff;
+.social-icons a:nth-child(1):hover {
+  color: #009933;
 }
-.top-bar .right-info .social-icons a:hover {
-  background: #3200a7;
-  border-color: #3200a7;
-  transition: 0.5s all ease;
+.social-icons a:nth-child(2):hover {
+  color: #c90000;
+}
+.social-icons a:nth-child(3):hover {
+  color: #fc009b;
+}
+.social-icons a:nth-child(4):hover {
+  color: #0099ff;
+}
+.social-icons a:nth-child(5):hover {
+  color: #0070f1;
+}
+.social-icons a:nth-child(6):hover {
+  color: #1d1d1d;
 }
 
 .sticky .main-header {
@@ -522,6 +524,104 @@ body.menu-open .mobile-menu-overlay {
     text-align: right;
   }
 }
+.footer {
+  background: #3D3D3B;
+  width: 100%;
+  padding: 4rem 0 2rem;
+}
+.footer .footer-wrap .newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid #fff;
+  padding-bottom: 2rem;
+}
+.footer .footer-wrap .newsletter .newstext {
+  color: #fff;
+}
+.footer .footer-wrap .newsletter .newsfeild {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.footer .footer-wrap .newsletter .newsfeild input {
+  height: 6rem;
+  width: 100%;
+  border-radius: 2rem 0 0 2rem;
+  border: none;
+  padding: 1rem 2rem;
+}
+.footer .footer-wrap .newsletter .newsfeild .btn input {
+  border-radius: 0 2rem 2rem 0;
+  background-color: #3200a7;
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.footer .footer-wrap .footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: self-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 0;
+  color: #fff;
+}
+.footer .footer-wrap .footer-nav .footer-nav-block {
+  flex-basis: calc(25% - 2rem);
+}
+.footer .footer-wrap .footer-nav .footer-nav-block .footer-logo {
+  width: 60%;
+  margin-bottom: 1rem;
+}
+.footer .footer-wrap .footer-nav .footer-nav-block .footer-logo img {
+  width: 100%;
+  height: 100%;
+}
+.footer .footer-wrap .footer-nav .footer-nav-block .socail-icon {
+  margin-top: 2rem;
+}
+.footer .footer-wrap .footer-nav .footer-nav-block h4 {
+  margin-bottom: 1rem;
+}
+.footer .footer-wrap .footer-nav .footer-nav-block ul li a {
+  color: #fff;
+}
+.footer .footer-wrap .footer-nav .block1 p {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+.footer .footer-wrap .footer-nav .block4 .address {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.footer .footer-wrap .copy-right {
+  text-align: center;
+  border-top: 0.1rem solid #fff;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.whats-floting-btn {
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+}
+.whats-floting-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0ffe7;
+  border: 0.1rem solid #44B000;
+  border-radius: 5rem;
+  height: 5rem;
+  width: 5rem;
+  font-size: 2.5rem;
+  color: #44B000;
+}
+
 .hero-session {
   margin-top: 3rem;
 }
@@ -779,10 +879,16 @@ body.menu-open .mobile-menu-overlay {
 .home-about .home-about-wrap .home-about-right {
   width: 60%;
 }
+.home-about .home-about-wrap .home-about-right .counter {
+  margin-top: 3rem;
+}
 .home-about .home-about-wrap .home-about-right .counter .counter-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.home-about .home-about-wrap .home-about-right > .c-sec-btn {
+  margin-top: 3rem;
 }
 
 .tool-container .tool .tool-card .tool-card-wrap {
@@ -855,15 +961,18 @@ body.menu-open .mobile-menu-overlay {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
 }
 .education-work-wrap .education-work-card {
   background: #f1edff;
   padding: 2rem;
   border-radius: 2rem;
+  width: 100%;
 }
 .education-work-wrap .education-work-card .education-work-content {
   border-left: 2px solid #f98a00;
   margin-top: 2rem;
+  padding: 1rem 0 1em 1.5rem;
 }
 
 .sec-head {

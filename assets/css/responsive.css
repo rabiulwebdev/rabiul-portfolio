@@ -20,11 +20,22 @@
   .project-card .project-card-box .project-card-box-wrap {
     flex-basis: 100%;
   }
+  .project-card .project-card-box .project-card-box-wrap .project-name {
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .project-card .project-card-box .project-card-box-wrap .project-name > h3 {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
   .education-work .education-work-wrap {
     flex-direction: column;
     align-items: start;
   }
   .tool-container .tool .tool-card .tool-card-wrap .tools {
     flex-basis: 33%;
+  }
+  .sec-right-head {
+    display: none;
   }
 }/*# sourceMappingURL=responsive.css.map */
